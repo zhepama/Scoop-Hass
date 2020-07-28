@@ -1,0 +1,29 @@
+{
+    "version": "1.17.1",
+    "description": "It's a time-management tool for computers. Work and rest, with wnr now.",
+    "homepage": "https://getwnr.com/",
+    "license": {
+        "identifier": "MPL-2.0 License",
+        "url": "https://github.com/RoderickQiu/wnr/blob/master/LICENSE"
+    },
+    "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.17.1/wnr-1.17.1-Win.7z",
+    "hash": "6ab04fb2b1537a6ae526e380bd93be9319c10b3f5b1ad3e8eca0870442d15069",
+    "extract_dir": "",
+    "bin": [
+        [
+            "wnr.exe"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "wnr.exe",
+            "wnr"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/RoderickQiu/wnr"
+    },
+    "autoupdate": {
+        "url": "https://github.com/RoderickQiu/wnr/releases/download/v$version/wnr-$version-Win.zip"
+    }
+}
