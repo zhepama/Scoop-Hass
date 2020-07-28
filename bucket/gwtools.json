@@ -1,0 +1,27 @@
+{
+    "version": "1.0.11",
+    "description": "gwtools",
+    "homepage": "https://github.com/zhepama/gwtools/",
+    "license": "Apache-2.0",
+    "url": "https://github.com/zhepama/gwtools/releases/download/v1.0.11/gwtools-1.0.11.7z",
+    "hash": "30f0c5b6e6af97a92b913e2c386856078b8fec915cd4a93a5cef860151df8aea",
+    "extract_dir": "Goflyway",
+    "persist": "config.ini",
+    "bin": [
+        [
+            "GoflywayTools.exe"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "GoflywayTools.exe",
+            "GoflywayTools"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/zhepama/gwtools"
+    },
+    "autoupdate": {
+        "url": "https://github.com/zhepama/gwtools/releases/download/v$version/gwtools-$version.7z"
+    }
+}
