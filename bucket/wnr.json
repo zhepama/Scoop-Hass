@@ -22,7 +22,9 @@
         ]
     },
     "shortcuts": [["wnr.exe", "wnr"]],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/RoderickQiu/wnr"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
