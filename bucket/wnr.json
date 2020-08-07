@@ -1,17 +1,17 @@
 {
-    "version": "1.17.1",
+    "version": "1.18.0",
     "description": "A timer app with strong expansibility for computers",
     "homepage": "https://github.com/RoderickQiu/wnr",
     "license": "MPL-2.0",
     "notes": "wnr config is placed at \"$env:appdata\\wnr\".",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.17.1/wnr-1.17.1-Setup-64.exe#/dl.7z",
-            "hash": "BE14DE68FDBFB3663F57B6B28E8B0CC90AE876DD06CA899839BEB9377FE21436"
+            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.18.0/wnr-1.18.0-Setup-64.exe#/dl.7z",
+            "hash": "b96ac831b679a09d3119de95ae79fdd020488ee2a905bec062ab6213d365414c"
         },
         "32bit": {
-            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.17.1/wnr-1.17.1-Setup-32.exe#/dl.7z",
-            "hash": "9C437170019E8AFC82B64A5475E349602E03A9493DD6AC6CACF58FDFD75762DD"
+            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.18.0/wnr-1.18.0-Setup-32.exe#/dl.7z",
+            "hash": "a3cf37f31c0a3240fbd03cfd8a3f2c430b97f0757f5a09a943dd5894624a7194"
         }
     },
     "installer": {
@@ -21,7 +21,12 @@
             "Remove-Item \"$dir\\Uninstall wnr.exe\""
         ]
     },
-    "shortcuts": [["wnr.exe", "wnr"]],
+    "shortcuts": [
+        [
+            "wnr.exe",
+            "wnr"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/RoderickQiu/wnr"
     },
