@@ -1,0 +1,22 @@
+{
+    "version": "1.3.7",
+    "homepage": "https://github.com/qishibo/AnotherRedisDesktopManager",
+    "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.3.7/Another-Redis-Desktop-Manager.1.3.7.exe#/dl.7z",
+    "hash": "9142a960d308cf4df2a84c1a8b6083c2d6bbfdd0e3eda7bf4b9e39412c085480",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager.$version.exe#/dl.7z"
+    },
+    "extract_dir": "$PLUGINSDIR",
+    "extract_to": "PLUGINSDIR",
+    "installer": {
+        "script": "7z x $original_dir/PLUGINSDIR/app-64.7z -o\"$original_dir\""
+    },
+    "post_install": "rm $original_dir/PLUGINSDIR -recurse",
+    "shortcuts": [
+        [
+            "Another Redis Desktop Manager.exe",
+            "AnotherRedisDesktopManager"
+        ]
+    ]
+}
