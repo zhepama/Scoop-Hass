@@ -1,13 +1,9 @@
 {
     "version": "1.11.3",
-    "description": "unity asset checker",
+    "description": "unity asset checke",
     "homepage": "https://upr.unity.cn/instructions/assetchecker",
-    "architecture": {
-        "32bit": {
-            "url": "https://unitycloud.oss-cn-beijing.aliyuncs.com/asset_check/unity-asset-checker-win-latest.zip",
-            "hash": "8db625e43d4c160fb37398c6630ae1c0024cb61164607f19c9438925972525f5"
-        }
-    },
+    "url": "https://unitycloud.oss-cn-beijing.aliyuncs.com/asset_check/unity-asset-checker-win-latest.zip",
+    "hash": "8db625e43d4c160fb37398c6630ae1c0024cb61164607f19c9438925972525f5",
     "extract_dir": "unity-asset-checker-win-$version",
     "bin": "assetcheck.exe",
     "shortcuts": [
