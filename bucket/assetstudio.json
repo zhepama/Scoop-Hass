@@ -6,16 +6,8 @@
         "identifier": "MIT",
         "url": "https://github.com/Perfare/AssetStudio/blob/master/LICENSE"
     },
-    "architecture": {
-        "64bit": {
-            "url": "https://ci.appveyor.com/api/buildjobs/02t3dcm31th7dnik/artifacts/AssetStudioGUI%2Fbin%2Fx64%2FAssetStudio.x64.v0.14.38.zip",
-            "hash": "8569053b1677422c185312ca1f65f593bba77f02d321f58bbc66b7bb5a90abac"
-        },
-        "32bit": {
-            "url": "https://ci.appveyor.com/api/buildjobs/02t3dcm31th7dnik/artifacts/AssetStudioGUI%2Fbin%2Fx86%2FAssetStudio.x86.v0.14.38.zip",
-            "hash": "e6fb9979e78616c3ae4d2075ef89219fef0b78556aecdad39e369c02b4aefbca"
-        }
-    },
+    "url": "https://ci.appveyor.com/api/buildjobs/02t3dcm31th7dnik/artifacts/AssetStudioGUI%2Fbin%2Fx86%2FAssetStudio.x86.v0.14.38.zip",
+    "hash": "e6fb9979e78616c3ae4d2075ef89219fef0b78556aecdad39e369c02b4aefbca",
     "extract_dir": "",
     "bin": "AssetStudioGUI.exe",
     "shortcuts": [
@@ -29,13 +21,6 @@
         "re": "\"jobId\":\"(?<jobid>[\\d\\w.]+)\".*\"version\":\"(?<version>[\\d.]+)\""
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://ci.appveyor.com/api/buildjobs/$matchJobid/artifacts/AssetStudioGUI%2Fbin%2Fx64%2FAssetStudio.x64.v$version.zip"
-            },
-            "32bit": {
-                "url": "https://ci.appveyor.com/api/buildjobs/$matchJobid/artifacts/AssetStudioGUI%2Fbin%2Fx86%2FAssetStudio.x86.v$version.zip"
-            }
-        }
+        "url": "https://ci.appveyor.com/api/buildjobs/$matchJobid/artifacts/AAssetStudioGUI%2Fbin%2FAssetStudio.v$version.zip"
     }
 }
