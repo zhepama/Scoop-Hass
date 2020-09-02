@@ -21,6 +21,6 @@
         "re": "\"jobId\":\"(?<jobid>[\\d\\w.]+)\".*\"version\":\"(?<version>[\\d.]+)\""
     },
     "autoupdate": {
-        "url": "https://ci.appveyor.com/api/buildjobs/$matchJobid/artifacts/AAssetStudioGUI%2Fbin%2FAssetStudio.v$version.zip"
+        "url": "https://ci.appveyor.com/api/buildjobs/$matchJobid/artifacts/AssetStudioGUI%2Fbin%2FAssetStudio.v$version.zip"
     }
 }
