@@ -4,7 +4,12 @@
     "homepage": "https://upr.unity.cn/instructions/assetchecker",
     "url": "https://unitycloud.oss-cn-beijing.aliyuncs.com/asset_check/unity-asset-checker-win-latest.zip",
     "hash": "8db625e43d4c160fb37398c6630ae1c0024cb61164607f19c9438925972525f5",
-    "extract_dir": "unity-asset-checker-win-$version",
+    "installer": {
+        "script": [
+            "Copy-Item -Path \"$dir\\unity-asset-checker-win-*\\*\" -Destination \"$dir\" -Recurse",
+            "Remove-Item \"$dir\\unity-asset-checker-win-*\""
+        ]
+    },
     "bin": "assetcheck.exe",
     "shortcuts": [
         [
