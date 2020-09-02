@@ -7,7 +7,7 @@
     "installer": {
         "script": [
             "Copy-Item -Path \"$dir\\unity-asset-checker-win-*\\*\" -Destination \"$dir\" -Recurse",
-            "Remove-Item \"$dir\\unity-asset-checker-win-*\""
+            "Remove-Item \"$dir\\unity-asset-checker-win-*\" -Recurse"
         ]
     },
     "bin": "assetcheck.exe",
