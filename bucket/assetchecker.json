@@ -22,10 +22,6 @@
         "re": "Asset Checker V(?<version>[\\d.]+)"
     },
     "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "url": "https://unitycloud.oss-cn-beijing.aliyuncs.com/asset_check/unity-asset-checker-win-latest.zip"
-            }
-        }
+        "url": "https://unitycloud.oss-cn-beijing.aliyuncs.com/asset_check/unity-asset-checker-win-latest.zip"
     }
 }
