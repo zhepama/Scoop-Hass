@@ -1,9 +1,9 @@
 {
-    "version": "1.15.0",
+    "version": "1.15.1",
     "description": "unity asset checke",
     "homepage": "https://upr.unity.cn/instructions/assetchecker",
-    "url": "https://unitycloud.oss-cn-beijing.aliyuncs.com/asset_check/unity-asset-checker-win-latest.zip?v=1.15.0",
-    "hash": "1589318a6c3b921e7bfcfb252a10b0c53238ff267097abfaf91846f80578fd0d",
+    "url": "https://unitycloud.oss-cn-beijing.aliyuncs.com/asset_check/unity-asset-checker-win-latest.zip?v=1.15.1",
+    "hash": "510584cafe0a60e088fb789816cca09996f9ba326814e95e19be43473643f262",
     "installer": {
         "script": [
             "Copy-Item -Path \"$dir\\unity-asset-checker-win-*\\*\" -Destination \"$dir\" -Recurse",
