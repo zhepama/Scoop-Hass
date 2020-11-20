@@ -12,7 +12,8 @@
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$EXEFILE\" -Switches '-t#'",
         "Remove-Item \"$dir\\*\" -Exclude '4.7z' -Recurse",
-        "Expand-7zipArchive \"$dir\\4.7z\" -ExtractDir 'office6' -Removal"
+        "Expand-7zipArchive \"$dir\\4.7z\" -ExtractDir 'office6' -Removal",
+        "Copy-Item -Path \"$dir\\..\\..\\wps-cn-package\\current\\mui\\*\" -Destination \"$dir\\mui\" -Recurse -Force"
     ],
     "bin": "wpsoffice.exe",
     "shortcuts": [
