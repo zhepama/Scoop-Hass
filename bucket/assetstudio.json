@@ -1,13 +1,13 @@
 {
-    "version": "0.15.24",
+    "version": "0.15.26",
     "description": "AssetStudio is a tool for exploring, extracting and exporting assets and assetbundles.",
     "homepage": "https://github.com/Perfare/AssetStudio",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/Perfare/AssetStudio/blob/master/LICENSE"
     },
-    "url": "https://ci.appveyor.com/api/buildjobs/faspv15tfpxrm2w1/artifacts/AssetStudioGUI%2Fbin%2FAssetStudio.v0.15.24.zip",
-    "hash": "830bfdeb0b0d9e69ba0a2b7838480c15c43283723f82e60e22edd3ef4eeba96d",
+    "url": "https://ci.appveyor.com/api/buildjobs/artuo14ex2symtqw/artifacts/AssetStudioGUI%2Fbin%2FAssetStudio.v0.15.26.zip",
+    "hash": "be6abd5dba5ad801d70f8e965ea4f95637f6c21732eef54290f9851c6178d0ce",
     "extract_dir": "",
     "bin": "AssetStudioGUI.exe",
     "shortcuts": [
