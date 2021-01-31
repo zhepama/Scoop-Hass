@@ -1,17 +1,17 @@
 {
-    "version": "1.21.0",
+    "version": "1.21.1",
     "description": "A timer app with strong expansibility for computers",
     "homepage": "https://github.com/RoderickQiu/wnr",
     "license": "MPL-2.0",
     "notes": "wnr config is placed at \"$env:appdata\\wnr\".",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.21.0/wnr-1.21.0-Setup-64.exe#/dl.7z",
-            "hash": "3f9f46d26c462d11d50ecdf3a1af9ba2ef1879f1de4f5ee05605bc403a9b8f0f"
+            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.21.1/wnr-1.21.1-Setup-64.exe#/dl.7z",
+            "hash": "7e147faf103458226bd801e6a63da543ab46acc23d1ee4a2a7dc4b5b329a1051"
         },
         "32bit": {
-            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.21.0/wnr-1.21.0-Setup-32.exe#/dl.7z",
-            "hash": "cd33fcd273ea692ecc11d37c867af456a647615349ba3697a1f015bfbae60306"
+            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.21.1/wnr-1.21.1-Setup-32.exe#/dl.7z",
+            "hash": "e9c20a57c61a6ea61e7a5ea7ba5dd7ee49e5f50cb8f87ec719f0a5bdfeb140f1"
         }
     },
     "installer": {
